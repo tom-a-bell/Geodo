@@ -52,6 +52,11 @@
 		E2E62157185A565900741108 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E62156185A565900741108 /* ListViewController.m */; };
 		E2E6215D185C882E00741108 /* EditListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E6215C185C882E00741108 /* EditListViewController.m */; };
 		E2E6215F185E5B1A00741108 /* PlaceholderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E6215E185E5B1A00741108 /* PlaceholderCell.m */; };
+		E2EF571D18915E5500CCE486 /* Apple Store.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E2EF571818915E5500CCE486 /* Apple Store.gpx */; };
+		E2EF571E18915E5500CCE486 /* Home.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E2EF571918915E5500CCE486 /* Home.gpx */; };
+		E2EF571F18915E5500CCE486 /* Parents.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E2EF571A18915E5500CCE486 /* Parents.gpx */; };
+		E2EF572018915E5500CCE486 /* Supermarket.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E2EF571B18915E5500CCE486 /* Supermarket.gpx */; };
+		E2EF572118915E5500CCE486 /* Work.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E2EF571C18915E5500CCE486 /* Work.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +158,11 @@
 		E2E6215E185E5B1A00741108 /* PlaceholderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderCell.m; sourceTree = "<group>"; };
 		E2E62160185E5B2700741108 /* PlaceholderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderCell.h; sourceTree = "<group>"; };
 		E2E62161185E5B7700741108 /* PlaceholderCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderCellDelegate.h; sourceTree = "<group>"; };
+		E2EF571818915E5500CCE486 /* Apple Store.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Apple Store.gpx"; path = "../TestLocations/Apple Store.gpx"; sourceTree = "<group>"; };
+		E2EF571918915E5500CCE486 /* Home.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Home.gpx; path = ../TestLocations/Home.gpx; sourceTree = "<group>"; };
+		E2EF571A18915E5500CCE486 /* Parents.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Parents.gpx; path = ../TestLocations/Parents.gpx; sourceTree = "<group>"; };
+		E2EF571B18915E5500CCE486 /* Supermarket.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Supermarket.gpx; path = ../TestLocations/Supermarket.gpx; sourceTree = "<group>"; };
+		E2EF571C18915E5500CCE486 /* Work.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Work.gpx; path = ../TestLocations/Work.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +285,11 @@
 			children = (
 				E205C11E1840D5C600B2214E /* Images.xcassets */,
 				E230C61D186354300022AE97 /* FontAwesome.ttf */,
+				E2EF571918915E5500CCE486 /* Home.gpx */,
+				E2EF571C18915E5500CCE486 /* Work.gpx */,
+				E2EF571B18915E5500CCE486 /* Supermarket.gpx */,
+				E2EF571818915E5500CCE486 /* Apple Store.gpx */,
+				E2EF571A18915E5500CCE486 /* Parents.gpx */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -460,10 +475,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2EF572118915E5500CCE486 /* Work.gpx in Resources */,
+				E2EF571E18915E5500CCE486 /* Home.gpx in Resources */,
+				E2EF571D18915E5500CCE486 /* Apple Store.gpx in Resources */,
 				E205C1111840D5C600B2214E /* InfoPlist.strings in Resources */,
 				E205C11F1840D5C600B2214E /* Images.xcassets in Resources */,
 				E230C61E186354300022AE97 /* FontAwesome.ttf in Resources */,
+				E2EF571F18915E5500CCE486 /* Parents.gpx in Resources */,
 				E205C11A1840D5C600B2214E /* Main.storyboard in Resources */,
+				E2EF572018915E5500CCE486 /* Supermarket.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

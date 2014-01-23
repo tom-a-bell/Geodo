@@ -268,6 +268,7 @@ static NSString *ListCellIdentifier = @"ListCell";
     cell.textLabel.text = list.name;
     cell.textLabel.textColor = list.color;
     cell.detailTextLabel.text = list.place ? [NSString stringWithFormat:@"Location: %@", [list.place name]] : @"";
+    cell.detailTextLabel.textColor = list.color;
 //    cell.tintColor = self.tableView.isEditing? nil : list.color;
     cell.accessoryType = list == self.todoItem.list ? UITableViewCellAccessoryCheckmark : UITableViewCellAccessoryNone;
     cell.editingAccessoryType = UITableViewCellAccessoryDetailButton;
